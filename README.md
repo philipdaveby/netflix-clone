@@ -1,3 +1,15 @@
+# NETFLIX CLONE
+
+This is a clone of the Netflix App made with inspiration from [this video](https://www.youtube.com/watch?v=XtMThy8QKqU). I created it in Typescript and fixed some bugs and improvements. 
+
+Link to the running [website](https://netflix-clone-8485b.web.app). 
+
+<!-- <img src="https://github.com/philipdaveby/reminders/blob/main/assets/todoreminders_screenshot.png?raw=true" width='300'> -->
+
+The application needs the following environment variable:
+
+- REACT_APP_TMDB_API_KEY
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
