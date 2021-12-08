@@ -4,7 +4,7 @@ This is a clone of the Netflix App made with inspiration from [this video](https
 
 Link to the running [website](https://netflix-clone-8485b.web.app). 
 
-<img src="https://github.com/philipdaveby/netflix-clone/blob/main/assets/mobile.png?raw=true" width='300'>
+<img src="https://github.com/philipdaveby/netflix-clone/blob/main/assets/src/images/mobile.png?raw=true" width='300'>
 
 The application needs the following environment variable:
 
