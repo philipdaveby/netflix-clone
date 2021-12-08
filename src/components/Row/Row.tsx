@@ -27,10 +27,11 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     }, [fetchUrl]);
 
     const handleClick = (movie: MovieType) => {
+        console.log(movies[1])
         if (trailerUrl) {
             setTrailerUrl('');
         } else {
-            movieTrailer(movie?.name || movie?.title || movie?.original_name || '')
+            movieTrailer(movie?.name || movie?.original_name || '')
                 .then((url: string) => {
                     const urlParams = new URLSearchParams(new URL(url).search)
                     const urlParamsTrailer = urlParams.get('v');
